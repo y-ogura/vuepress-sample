@@ -1,0 +1,14 @@
+module.exports = {
+    title: "blog",
+    themeConfig: {
+      description: "ここにはディスクリプションを入れます。",
+      nav: [
+        { text: "About", link: "/about/" }, // ここはnav barのメニュー表示/aboutページは後ほど
+        { text: "Tags", link: "/tag/" },
+        { text: "Categories", link: "/category/" }
+      ]
+    },
+    plugins: [
+        "@vuepress/blog"
+    ]
+  };
