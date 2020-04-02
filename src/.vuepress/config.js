@@ -1,5 +1,7 @@
 module.exports = {
     title: "blog",
+    base: "/vuepress-sample/",
+    dest: "docs",
     themeConfig: {
       description: "ここにはディスクリプションを入れます。",
       nav: [
