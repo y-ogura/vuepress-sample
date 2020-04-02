@@ -2,7 +2,7 @@ version: 2
 
 jobs:
   build:
-    working_directory: ~/docs
+    working_directory: ~/tmp
     docker:
       - image: node:9.11
         environment:
